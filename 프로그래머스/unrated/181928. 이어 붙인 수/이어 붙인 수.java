@@ -6,9 +6,9 @@ class Solution {
         
         for(int i=0; i<num_list.length; i++){
             if(num_list[i]%2==0){
-                even+=String.valueOf(num_list[i]);
+                even+=num_list[i];
             }else{
-               odd+= String.valueOf(num_list[i]);
+               odd+=num_list[i];
             }
         }
         
