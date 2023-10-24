@@ -1,8 +1,10 @@
 class Solution {
     public int solution(int n, int t) {
-         int answer = 0;
+         int answer = n;
         
-        answer = n * (int) Math.pow(2, t); // 2^t를 계산하여 n에 곱
+        for(int i=0; i<t; i++){
+            answer*=2;
+        }
         
         return answer;
     }
