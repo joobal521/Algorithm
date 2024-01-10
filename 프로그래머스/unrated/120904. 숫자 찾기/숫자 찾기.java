@@ -2,7 +2,7 @@ class Solution {
     public int solution(int num, int k) {
         int answer = -1;
         
-        String numStr=Integer.toString(num);
+        String numStr=String.valueOf(num);
         int arr[]=new int[numStr.length()];
         
         
